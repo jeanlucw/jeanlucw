@@ -1,0 +1,28 @@
+/* Couleurs des titres : changez directement les codes */
+.vscode-body h1 { color: #8959dc; }
+.vscode-body h2 { color: #4a89d1; }
+.vscode-body h3 { color: #3aa94e; }
+.vscode-body h4 { color: #d26e30; }
+.vscode-body h5, .vscode-body h6 { color: #c92f2f; }
+/* Le trait sous h1 et h2 prend la couleur du titre */
+.vscode-body h1, .vscode-body h2 { border-bottom-color: currentColor; }
+
+ 
+/* Texte */
+.vscode-body :not(pre) > code { color: #79c0ff; }                        /* code en ligne */
+.vscode-body strong, .vscode-body em { color: #c9d1d9; }                 /* gras, italique */
+.vscode-body a { color: #a5d6ff; }                                       /* liens */
+.vscode-body blockquote { color: #7ee787; border-left-color: #7ee787; }  /* citations */
+.vscode-body li::marker { color: #ffa657; }                              /* puces et numéros */
+ 
+/* Blocs de code : correspondance approximative avec l'éditeur */
+.vscode-body .hljs-comment { color: #8b949e; }                           /* commentaires */
+.vscode-body .hljs-keyword { color: #ff7b72; }                           /* mots-clés (if, then…) */
+.vscode-body .hljs-string { color: #a5d6ff; }                            /* chaînes */
+.vscode-body .hljs-number,
+.vscode-body .hljs-literal,
+.vscode-body .hljs-built_in { color: #79c0ff; }                          /* nombres, true/false, commandes intégrées */
+.vscode-body .hljs-title { color: #d2a8ff; }                             /* noms de fonctions */
+.vscode-body .hljs-variable { color: #c9d1d9; }                          /* variables ($HOME…) */
+.vscode-body .hljs-attr { color: #7ee787; }                              /* clés JSON et YAML */
+.vscode-body .hljs-type { color: #ffa657; }                              /* types */
