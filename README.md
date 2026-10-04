@@ -10,4 +10,5 @@
 ## Comment configurer les couleurs pour la visualisation des fichiers .md dans VS Code
 
 [👉 Accès au mode d'emploi](./configs/colorerappercumarkdown.md)
+
 [👉 Accès au fichier markdown.css](./configs/markdown.css)
